@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 180px;
+    width: 180px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text{
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    color: black;
+    inline-size: 320px;
+}
+
+.text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text p span {
+    color: #4200FF;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape img{
+    padding-top: 19px;
+}
